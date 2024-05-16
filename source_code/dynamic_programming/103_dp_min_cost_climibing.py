@@ -1,3 +1,5 @@
+from typing import List, Dict
+
 class Solution:
     #only recursion
     def solve(self, cost: List[int], n: int, dp:Dict[int,int] ) -> int:
