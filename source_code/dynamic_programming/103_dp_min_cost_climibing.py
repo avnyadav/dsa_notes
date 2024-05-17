@@ -20,7 +20,7 @@ class Solution:
         if dp[n]!=-1:
             return dp[n]
         #step 2
-        dp[n]: int = cost[n] + min(self.solve2(cost, n-1, dp), self.solve2(cost, n-2, dp))
+        dp[n]:int = cost[n] + min(self.solve2(cost, n-1, dp), self.solve2(cost, n-2, dp))
         return dp[n]
 
     def solve3(self, cost: List[int]) -> int:
