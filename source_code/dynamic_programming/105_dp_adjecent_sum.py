@@ -23,7 +23,6 @@ def solveTab(nums):
     dp=[0]*n
     dp[0]=nums[0]
     for i in range(1,n):
-    
         incl = dp[i-2]+nums[i]
         excl = dp[i-1]+0
         dp[i]=max(incl,excl)
