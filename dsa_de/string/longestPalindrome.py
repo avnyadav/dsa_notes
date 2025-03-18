@@ -48,10 +48,5 @@ class Solution:
         return res,resLen
 
 
-
-        
-
-
-
 if __name__=="__main__":
     print(Solution().longestPalindrome(s=input("Enter text:\n")))
